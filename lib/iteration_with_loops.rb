@@ -4,7 +4,6 @@ def join_nested_strings(src)
   while row < src.count do
     index = 0
     while index < src[row].count do
-<<<<<<< HEAD
       if src[row][index].class == String
         string_array << src[row][index]
       end
